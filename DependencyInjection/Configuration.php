@@ -1,6 +1,6 @@
 <?php
 
-namespace Madia\Bundle\AccountExtendedBundle\DependencyInjection;
+namespace Madia\Bundle\ExtendAccountBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('madia_account_extended');
+        $rootNode = $treeBuilder->root('madia_extendaccount');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
