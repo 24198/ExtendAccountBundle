@@ -1,0 +1,2 @@
+bundles:
+    - { name: Madia\Bundle\ExtendAccountBundle\MadiaExtendAccountBundle, priority: 100 }

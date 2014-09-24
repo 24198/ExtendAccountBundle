@@ -1,0 +1,8 @@
+parameters:
+    madia_extendaccount.account.form.extension.class: Madia\Bundle\ExtendAccountBundle\Form\Extension\AccountFormExtension
+
+services:
+    madia_extendaccount.account.form.extension:
+        class: %madia_extendaccount.account.form.extension.class%
+        tags:
+            - { name: form.type_extension, alias: orocrm_account }
