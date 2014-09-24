@@ -1,5 +1,5 @@
 madia:
     account:
         form:
-            account_executive:    Account Executive
+            account_manager:    Account Executive
             product_owner:        Product Owner
